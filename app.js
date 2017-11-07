@@ -17,6 +17,8 @@ App({
       typeof cb == "function" && cb(this.globalData.userInfo)
     } else {
       //调用登录接口
+      //测试调用接口 微信的api使用教程
+      //测试github 和 intellij idea的使用教程
       wx.getUserInfo({
         withCredentials: false,
         success: function(res) {
